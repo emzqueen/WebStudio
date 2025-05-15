@@ -1,31 +1,69 @@
-.header{
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5; 
+}
+
+.header {
   background-color: white;
 }
-.main-menu{
+
+.header__container {
+
+}
+
+.header__logo {
+  color: black; 
+}
+
+.header__nav {
   background-color: black;
 }
-.our-advantages{
-  background-color: white;
+
+.header__nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
 }
-.team{
-  background-color: white;
+
+.header__nav-item {
+  
 }
-.footer{
+
+.header__nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.header__contacts-link {
+  color: gray;
+  text-decoration: none;
+}
+
+/* Інші стилі */
+
+.footer {
   background-color: rgb(255, 255, 255);
 }
-.menu-btn{
+
+.footer__logo {
+  color: white;
+}
+
+.footer__text {
+  color: gray;
+}
+
+/* Кнопка */
+
+.header__menu-btn {
   background-color: blue;
   color: white;
-}
-h1{
-  color: white;
-}
-.header-a{
-  color: white;
-}
-.footer-logo{
- color: white;
-}
-.footer-text{
-  color: gray;
 }
