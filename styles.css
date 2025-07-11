@@ -1,0 +1,82 @@
+:root {
+  --color-white: white;
+  --color-black: black;
+  --color-blue: blue;
+  --color-gray: gray;
+  --color-dark-bg: #222;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+}
+
+.header {
+  background-color: var(--color-white);
+}
+
+.header__logo {
+  color: var(--color-black);
+}
+
+.header__nav {
+  background-color: var(--color-black);
+}
+
+.header__nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.header__nav-link {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.header__contacts-link {
+  color: var(--color-gray);
+  text-decoration: none;
+}
+
+.footer {
+  background-color: var(--color-dark-bg);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__logo {
+  color: var(--color-white);
+}
+
+.footer__text {
+  color: var(--color-gray);
+}
+
+.header__menu-btn {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.hero,
+.advantages,
+.services,
+.team,
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
