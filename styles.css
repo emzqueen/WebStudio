@@ -227,3 +227,17 @@ p {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio__item {
+  flex-basis: calc((100% - 60px) / 3);
+  box-sizing: border-box;
+}
