@@ -42,6 +42,15 @@ p {
 
 .header {
   background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .header__logo {
@@ -56,11 +65,11 @@ p {
 }
 
 .header__nav-list {
+  display: flex;
+  gap: 20px;
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  gap: 20px;
 }
 
 .header__nav-link {
@@ -79,6 +88,13 @@ p {
   color: var(--color-gray);
   text-decoration: none;
   font-size: 14px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero__title {
@@ -175,6 +191,14 @@ p {
   padding-top: 60px;
   padding-bottom: 60px;
   color: var(--color-white);
+  display: flex;
+  justify-content: center;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .footer__logo {
